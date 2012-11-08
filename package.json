@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-    "superagent": "~0.9.8"
+    "superagent": "~0.9.8",
+    "enumerable-component": "0.1.0",
+    "map-component": "0.0.1"
   }
 }
