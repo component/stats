@@ -35,6 +35,7 @@ function stats(pkgs) {
   var users = _(repos).compact().map(username);
 
   var stats = { count: pkgs.length };
+  stats.timestamp = Date.now();
   stats.authors = users.unique().array().length;
 
   console.log(stats);
